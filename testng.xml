@@ -3,7 +3,7 @@
 <suite name="Practice">
     <test name="EpamUI">
         <classes>
-            <class name="org.uAuto.Test">
+            <class name="org.uAuto.HomePageTest">
                 <methods>
 
                 </methods>
