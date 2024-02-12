@@ -9,7 +9,7 @@ public class BaseTest {
     public void openBrowser() {
         // Opens a new browser instance
         WebDriver driver = DriverProvider.getInstance();
-        driver.get("https://pawo.space/#/");
+        driver.get("https://pawo.space/");
     }
 
     @AfterMethod

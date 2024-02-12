@@ -20,6 +20,7 @@ public class DriverFactory {
                 options.addArguments("start-maximized");
                 options.addArguments("--disable-notifications");
                 options.addArguments("--disable-popup-blocking");
+                options.addArguments("--disable-extensions");
 
                 driver = new ChromeDriver(options);
         } else if (driverName.equalsIgnoreCase("firefox")) {

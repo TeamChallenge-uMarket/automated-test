@@ -1,7 +1,11 @@
 package org.uAuto;
+import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 import selenium.pages.HomePage;
 import selenium.DriverProvider;
+import selenium.pages.LoginPage;
+import selenium.utils.RandomEmailGenerator;
+
 import static org.testng.Assert.assertTrue;
 
 public class HomePageTest extends BaseTest {
@@ -22,7 +26,6 @@ public class HomePageTest extends BaseTest {
         page.clickOnLoginButton();
         String expected = "E-mail";
         String actual = page.getInputPlaceholderValue();
-
         assertTrue(expected.equals(actual));
     }
 }
