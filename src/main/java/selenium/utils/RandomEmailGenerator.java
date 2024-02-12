@@ -8,8 +8,8 @@ import static selenium.DriverWaiter.*;
 
 public class RandomEmailGenerator {
 
-    private WebDriver driver;
-    private final String urlToEmailService = "https://10minutemail.net";
+    private final WebDriver driver;
+    private static final String urlToEmailService = "https://10minutemail.net";
     private static final Logger logger = LogManager.getLogger(RandomEmailGenerator.class);
 
     By MAIL_TEXT = By.xpath("//input[@class='mailtext']");
